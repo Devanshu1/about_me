@@ -2,7 +2,8 @@
  alert('Hello!');
 console.log('hi');
 
-alert('Hi there ' + '! Nice to meet you! ')
+
+alert('Hi there ' + name + '! Nice to meet you! ')
 
 var favColor = prompt('Is my favorite color blue?').toLowerCase();
 
@@ -51,3 +52,22 @@ if (from === 'yes' || from === 'y'){
     alert ('Wrong, I wear Size 12s!');
     console.log('Do I have size 10 feet?');
 }
+for (var i = 0; i < 4; i++) {
+   var guess = parseInt(prompt('How many types of fruits do I like?'));
+    console.log ('loop #1' + i);
+
+   if (guess < 5) {
+        alert('Too low!');
+        console.log('')
+
+   } else if (guess > 5 ) {
+        alert('Too high!');
+        console.log()
+
+   } else if( guess === 5) {
+     alert('Correct!'); 
+    console.log() 
+   }
+}
+
+while ()
