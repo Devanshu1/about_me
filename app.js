@@ -8,6 +8,15 @@ var name = prompt('What is your name?');
 
 alert('Hi there ' + name + '! Nice to meet you! ')
 
+q1();
+q2();
+q3();
+q4();
+q5();
+q6();
+q7();
+
+function q1 () { 
 var favColor = prompt('Is my favorite color blue?').toLowerCase();
 
 
@@ -18,8 +27,9 @@ alert('That\'s right!');
     alert('Sorry, my favorite color is blue.');
 console.log('Is my favorite color blue?');
 }
+}
 
-
+function q2 () {
 var favoriteFood = prompt('Do I like pizza?').toLowerCase();
 
 if (favoriteFood === 'yes' || favoriteFood ==='y') {
@@ -29,7 +39,8 @@ if (favoriteFood === 'yes' || favoriteFood ==='y') {
     alert('Sorry, my favorite food is pizza.');
 console.log('Do I like pizza?');
 }
-
+}
+function q3 () {
     var from = prompt('Was I born in Portland?').toLowerCase();
 
 if (from === 'yes' || from === 'y'){
@@ -39,8 +50,11 @@ if (from === 'yes' || from === 'y'){
     alert('That is incorrect! I was born in Portland');
     console.log('Was I born in Portland?');
 }
+}
+
+function q4 () {
    var criminal = prompt('Do I like criminals?').toLowerCase();
-   
+
    if (criminal === 'yes' || criminal === 'y'){
        alert('Wrong! More like I don\'t appreciate them');
        right++
@@ -48,7 +62,9 @@ if (from === 'yes' || from === 'y'){
     alert(' Correct!');
     console.log('Do I like criminals?');
    }
-    
+}
+
+function q5 () {   
    var size = prompt('Do I have size 10 feet?').toLowerCase();
        
     if (size === 'yes' || size === 'y'){
@@ -59,6 +75,9 @@ if (from === 'yes' || from === 'y'){
     console.log('Do I have size 10 feet?');
     right++
 }
+}
+
+function q6 () {
 for (var i = 0; i < 4; i++) {
    var guess = parseInt(prompt('How many types of fruits do I like?'));
     console.log ('loop #1' + i);
@@ -78,7 +97,9 @@ for (var i = 0; i < 4; i++) {
       break 
    }
 }
+}
 
+function q7() {
 var answer = ['basketball', 'waterpolo', 'soccer'];
 
 for (var i = 0; i < 6; i++ ) {
@@ -91,6 +112,6 @@ for (var i = 0; i < 6; i++ ) {
        }   else (sports )
             alert('You\'re wrong!');
     }
-
+}
 
 
