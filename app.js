@@ -4,6 +4,8 @@ console.log('hi');
 
 var right = 0 
 
+var name = prompt('What is your name?');
+
 alert('Hi there ' + name + '! Nice to meet you! ')
 
 var favColor = prompt('Is my favorite color blue?').toLowerCase();
@@ -63,15 +65,15 @@ for (var i = 0; i < 4; i++) {
 
    if (guess < 5) {
         alert('Too low!');
-        console.log('')
+        console.log('Too low!');
 
    } else if (guess > 5 ) {
         alert('Too high!');
-        console.log()
+        console.log('Too high!');
 
    } else if( guess === 5) {
      alert('Correct!'); 
-      console.log()
+      console.log('Correct!')
       right++
       break 
    }
@@ -82,8 +84,8 @@ var answer = ['basketball', 'waterpolo', 'soccer'];
 for (var i = 0; i < 6; i++ ) {
     var sports = prompt('What sports have I played?');
     if (sports === 'basketball' || sports === 'waterpolo' || sports === 'soccer') {
-        alert('That\'s right! You have ' + right + ' right');
-        console.log()
+        alert('That\'s right! ' + name + ' You have ' + right + ' right');
+        console.log('I have played ' + sports);
         right++
         break
        }   else (sports )
